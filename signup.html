@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotatoeCloud - Sign Up</title>
+    <link rel="stylesheet" href="styleth/MSS style.css"> 
+    <link rel="icon" href="styleth/favicon.png">
+</head>
+<body>
+    
+
+    <div id="navbar">
+        <img src="styleth/pfp.jpg" class="pfp" id="pfp">
+        <a href="#">O Nás</a>
+        <a href="#">Pomoc</a>
+        <a href="#">Spravovat Soubory</a>
+        <a href="https://creatorofbiontium.github.io/PotatoeCloud/" class="man" style="float: left;   background-color: rgb(249, 249, 110); color: #000000;   border-radius: 10px;">Menu</a>
+      </div>
+
+      <br><br>
+    <div class="container">
+        <h1 class="nadpis">Sign Up</h1>
+            <div class="buttons">
+                <form action="" id="logform">
+                        <label for="name">Uživatelské Jméno</label>
+                        <input type="text" id="uname" placeholder="Zadejte Uživatelské Jméno" class="input">
+
+                        <label for="name">E-Mail</label>
+                        <input type="text" id="email" placeholder="Zadejte váš E-Mail" class="input"><br>
+                
+
+                        <label for="name">Rok a měsíc narození</label> <h5 id="errorts" class="errortxt"></h5>
+                        
+                        <br>
+                        <input type="text" id="yam" class="rok" placeholder="Zadejte rok narození" class="input">
+
+
+                        <select name="month" id="month" class="month">
+                        <option value="Shy person">Nechci uváďet</option>
+                          <option value="leden">Leden</option>
+                          <option value="unor">Únor</option>
+                          <option value="brezen">Březen</option>
+                          <option value="duben">Duben</option>
+                          <option value="kveten">Květen</option>
+                          <option value="cerven">Červen</option>
+                          <option value="cernec">Červenec</option>
+                          <option value="srp">Srpen</option>
+                          <option value="zar">Září</option>
+                          <option value="rij">Říjen</option>
+                          <option value="lis">Listopad</option>
+                          <option value="pro">Prosinec</option>
+                        </select><br><br>
+
+
+
+
+
+
+
+                        <label for="name">Heslo</label>
+                        <input type="password" id="pass" placeholder="Zadejte Heslo" class="input">
+
+                        <label for="name">Ověření Hesla</label>
+                        <input type="password" id="agpass" placeholder="Znovu zadejte Heslo" class="input">
+
+                        <br><br>
+                        <button id="submit" class="submt" onclick="doallr()">přihlásit</button><br>
+                </form>
+                <br><br>
+                <a href="signup" class="lnk">Už máte účet?</a>
+            </div>
+    </div>
+
+
+
+
+</body>
+<script src="scripts/signup.js"></script>
+<script src="scripts/Mscript.js"></script>
+<script src="scripts/evScript.js"></script>
+</html>
