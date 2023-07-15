@@ -10,7 +10,9 @@ let date =  new Date().getFullYear();
 cy = date - year
 
 
-function verifyyear(){
+function verifyyear(e){
+    e.preventDefault()
+
 
 if (year < 1900) {
 et = "Nemůžete použít rok před 1900"
